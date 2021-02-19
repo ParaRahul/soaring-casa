@@ -1,0 +1,23 @@
+
+.image1 > img{
+  width: 100px;
+  height:100px;
+}
+
+
+#soaring-body{
+ margin: auto;
+ background: wheat;
+}
+
+
+.text{
+  margin-top: 5%;
+}
+
+
+
+.imageI>img{
+  width: 200%!important;
+  height:auto
+}

@@ -1,0 +1,47 @@
+i{
+    margin-left: 10%;
+}
+
+
+
+.roots > div {
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    border-radius: 50%;
+    cursor: -webkit-grab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    white-space: pre;
+  }
+  
+/* .roots > div:active {
+    cursor: -webkit-grabbing;
+  } */
+
+
+  /* .animations > div{
+    background: white;
+    color: black;
+    border-radius: 50%;
+  } */
+
+
+  .motions > div{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    background: blue;
+    color: black;
+
+  }
+
+  
+
+
+
+  .motions2{
+      height: 200px
+  }

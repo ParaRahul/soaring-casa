@@ -1,0 +1,62 @@
+
+
+
+#home-component{
+    background: transparent;
+
+}
+
+.heading{
+    width: 100%;
+    height: 100vh;
+}
+
+.heading h1{
+    position: absolute;
+    font-family: 'Abril Fatface';
+    color: black!important;
+    top: 50%;
+    left:10%
+}
+
+video{
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:5%;
+    min-width: 100%; 
+    z-index: -1;
+}
+ 
+
+
+
+.heading h6{
+    position: absolute;
+    top:60%;
+    font-family: 'Lobster';
+    display: inline-block;
+    left: 10%;
+}
+
+
+span{
+    font-family: 'Lobster';
+    font-size: 30px;
+}
+
+
+.event-second{
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.contest-third{
+    height: 100vh;
+}
+
+.club-four{
+    height: 100vh;
+    background-color: lightgray;
+}
