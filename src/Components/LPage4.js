@@ -13,7 +13,7 @@ const Lpage4=()=> {
                 <h5 className="heading2">We help you fly high like an eagle <span className="typed"></span></h5>
                 </div></div>
                 <div className="col s6">
-                <model-viewer id="reveal"  src={image} alt="A 3D model of an astronaut" auto-rotate camera-controls disable-zoom ></model-viewer>
+                <model-viewer id="reveal"  src={image} alt="A 3d glider" auto-rotate camera-controls disable-zoom ></model-viewer>
                 </div>
             </div>
         </div>
