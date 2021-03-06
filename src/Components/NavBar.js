@@ -17,7 +17,10 @@ const NavBar = ()=> {
                     <li><NavLink to="/slider">Slider</NavLink></li>
                     <li><NavLink to="/theme">Theme</NavLink></li>
                     <li><NavLink to="/lpage2">LPage2</NavLink></li>
+                    <li><NavLink to="/lpage3">LPage3</NavLink></li>
+                    <li><NavLink to="/aero">LPage4</NavLink></li>
                     <li><NavLink to="/landing">LandingPage</NavLink></li>
+                    <li><NavLink to="/circle">CircleAnimation</NavLink></li>
                 </ul>
                 </div>
             </nav>

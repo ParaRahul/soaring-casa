@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@google/model-viewer": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "animejs": "^3.2.1",
+    "drei": "^2.2.21",
     "framer": "^1.2.20",
     "framer-motion": "^3.3.0",
     "gsap": "^3.6.0",
+    "imports-loader": "^2.0.0",
     "jquery": "^3.5.1",
     "lodash-es": "^4.17.20",
     "materialize-css": "^1.0.0-rc.2",
@@ -19,9 +22,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.3.19",
     "react-use-gesture": "^9.0.0",
     "react-with-gesture": "^4.0.8",
-    "sass": "^1.32.7",
+    "sass": "^1.32.8",
+    "scrollmagic": "^2.0.8",
+    "splitting": "^1.0.6",
     "typed.js": "^2.0.11",
     "web-vitals": "^1.1.0"
   },
@@ -48,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "three": "^0.126.0"
   }
 }

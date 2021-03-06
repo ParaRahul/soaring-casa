@@ -11,12 +11,16 @@ import Slider from './Components/Slider'
 import LandingPage from './Components/LandingPage'
 import ThemeChange from './Components/ThemeChange'
 import LPage2 from './Components/LPage2'
+import LPage3 from './Components/LPage3'
+import LPage4 from './Components/LPage4'
+import Flying from './Components/Flying'
+import CircleAnimation from './Components/CircleAnimation'
 
 const App = () => {
   return (
     <BrowserRouter>
       <div id="club-body">
-      <NavBar />
+      <NavBar /> 
         <div className="App">
           <Switch>
           <Route exact path='/' component={Home} />
@@ -28,6 +32,10 @@ const App = () => {
           <Route path='/landing' component={LandingPage} />
           <Route path='/theme' component={ThemeChange} />
           <Route path='/lpage2' component={LPage2} />
+          <Route path='/lpage3' component={LPage3} />
+          <Route path='/circle' component={CircleAnimation} />
+          <Route path='/flying' component={Flying} />
+          <Route path='/aero' component={LPage4} />
           <Route path='/soaring'><Soaring /></Route>
         
           </Switch>
